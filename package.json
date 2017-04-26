@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-template-emails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "email-templates": "^2.5.4",
+    "handlebars": "^4.0.6",
+    "nodemailer": "^4.0.1"
+  }
+}
