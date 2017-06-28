@@ -11,18 +11,25 @@ const nodemailer = require('nodemailer'),
     path = require('path'),
     Promise = require('bluebird');
 
+// I changed the emails from what's in the tutorial because people kept using
+// info@geeklaunch.net and sending me their test emails. :P Lesson learned. :)
+//
+// So yeah, change the emails below from 'example@example.tld' to YOUR email,
+// please.
+//
+// Thank you!
 let users = [
     {
         name: 'Jack',
-        email: 'info@geeklaunch.net',
+        email: 'example@example.tld',
     },
     {
         name: 'John',
-        email: 'info@geeklaunch.net',
+        email: 'example@example.tld',
     },
     {
         name: 'Joe',
-        email: 'info@geeklaunch.net',
+        email: 'example@example.tld',
     },
 ];
 
